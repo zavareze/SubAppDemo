@@ -8,7 +8,7 @@ Ext.define('JS.view.Main', {
         Ext.apply(me, {
             dockedItems : me.buildDocks(),
             frame : true,
-            html  : 'Test Sub App Loading',
+            html  : 'Test Sub App Loading'
         });
 
         me.callParent();
