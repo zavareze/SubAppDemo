@@ -180,7 +180,7 @@ Ext.define('Ext.app.SubApplication', {
             loadedJS     : Ext.create('Ext.util.MixedCollection'),
             //private
             //holds loaded CSS files to remove on destruction
-            loadedCSS    : Ext.create('Ext.util.MixedCollection'),
+            loadedCSS    : Ext.create('Ext.util.MixedCollection')
         });
 
         me.callParent(arguments);
